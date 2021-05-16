@@ -1,6 +1,7 @@
 body {
     text-align: center;
     margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .page-background {
@@ -62,13 +63,41 @@ body {
     border: solid 2px #000000;
     margin-top: 5px;
     margin-bottom: 5px;
+    transition: all 0.3s;
+    cursor: pointer;
 }
 
 .tabelka {
+    justify-content: center;
+}
+
+.tabelka-inside {
     display: flex;
     justify-content: center;
 }
 
-.zdj {
+.zdj-inside {
     display: flex;
+    justify-content: center;
+}
+
+.img {
+    margin: 20px;
+}
+
+.page {
+    opacity: 0;
+    transition: opacity .3s;
+    overflow: hidden;
+    height: 0;
+}
+
+.page.is-active {
+    display: block;
+    opacity: 1;
+    height: unset;
+}
+
+.link.is-active {
+    transform: scale(1.2) rotate(360deg);
 }
