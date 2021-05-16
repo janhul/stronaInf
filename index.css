@@ -1,13 +1,12 @@
 body {
-    background-color: #ffffff;
     text-align: center;
-    background: url(tlo.jpg) transparent 10%
-    ;
-
+    background: url(tlo.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color :#ffffff;
+    background-position-x: center;
 }
 
-.tlo {
-}
 
 .opis {
     border: #000000;
