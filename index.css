@@ -1,12 +1,11 @@
 body {
     text-align: center;
-    background: url(tlo.jpg) ;
+    background: url(shrek-background.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    color :#ffffff;
+    color: #ffffff;
     background-position-x: center;
 }
-
 
 .opis {
     border: #000000;
@@ -17,35 +16,32 @@ body {
     max-width: 1100px;
     margin-left: auto;
     margin-right: auto;
-    -webkit-box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
-	-moz-box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
-	box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
+    -webkit-box-shadow: 3px 3px 30px 5px rgba(204, 204, 204, 0.9);
+    -moz-box-shadow: 3px 3px 30px 5px rgba(204, 204, 204, 0.9);
+    box-shadow: 3px 3px 30px 5px rgba(204, 204, 204, 0.9);
     z-index: 2;
 }
 
-
 .informacje {
     max-width: 450px;
-    border: solid 2px  #000000 ;
+    border: solid 2px #000000;
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
     margin-bottom: 30px;
-    -webkit-box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
-	-moz-box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
-	box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
+    -webkit-box-shadow: 3px 3px 30px 5px rgba(204, 204, 204, 0.9);
+    -moz-box-shadow: 3px 3px 30px 5px rgba(204, 204, 204, 0.9);
+    box-shadow: 3px 3px 30px 5px rgba(204, 204, 204, 0.9);
     z-index: 2;
-
 }
 
 .odnosniki {
     display: flex;
     max-width: 250px;
-    border: solid 2px  #000000 ;
+    border: solid 2px #000000;
     margin-left: auto;
     margin-right: auto;
     z-index: 2;
-
 }
 
 .link1 {
@@ -55,11 +51,10 @@ body {
     margin-right: auto;
     color: #000000;
     letter-spacing: 3px;
-    border: solid 2px  #000000 ;
+    border: solid 2px #000000;
     margin-top: 5px;
     margin-bottom: 5px;
     z-index: 2;
-
 }
 
 .link2 {
@@ -69,9 +64,8 @@ body {
     margin-right: auto;
     color: #000000;
     letter-spacing: 3px;
-    border: solid 2px  #000000 ;
+    border: solid 2px #000000;
     margin-top: 5px;
     margin-bottom: 5px;
     z-index: 2;
-
- }
+}
